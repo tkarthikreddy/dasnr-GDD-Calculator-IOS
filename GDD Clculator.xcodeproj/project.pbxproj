@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470150BF23D9A8D700FC333B /* weatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470150BE23D9A8D700FC333B /* weatherData.swift */; };
+		4710DDF3245FD38400A0A282 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710DDF2245FD38400A0A282 /* weather.swift */; };
+		472A24C824753879009FC13C /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A24C724753879009FC13C /* infoViewController.swift */; };
 		477B4FB723D42C3700B50D2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B4FB623D42C3700B50D2E /* AppDelegate.swift */; };
-		477B4FB923D42C3700B50D2E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B4FB823D42C3700B50D2E /* FirstViewController.swift */; };
-		477B4FBB23D42C3700B50D2E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B4FBA23D42C3700B50D2E /* SecondViewController.swift */; };
+		477B4FB923D42C3700B50D2E /* GDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B4FB823D42C3700B50D2E /* GDDViewController.swift */; };
+		477B4FBB23D42C3700B50D2E /* CumulativeGDDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B4FBA23D42C3700B50D2E /* CumulativeGDDViewController.swift */; };
 		477B4FBE23D42C3700B50D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B4FBC23D42C3700B50D2E /* Main.storyboard */; };
 		477B4FC023D42C3900B50D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477B4FBF23D42C3900B50D2E /* Assets.xcassets */; };
 		477B4FC323D42C3900B50D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B4FC123D42C3900B50D2E /* LaunchScreen.storyboard */; };
+		479B8817247E178700642D82 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B8816247E178700642D82 /* Reachability.swift */; };
+		A7F62B4AA5BB5757AE463CA9 /* Pods_GDD_Clculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C02B36D2CDFAAB84EB242F2 /* Pods_GDD_Clculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470150BE23D9A8D700FC333B /* weatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherData.swift; sourceTree = "<group>"; };
+		4710DDF2245FD38400A0A282 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = weather.swift; path = ../weather.swift; sourceTree = "<group>"; };
+		472A24C724753879009FC13C /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = infoViewController.swift; path = "GDD Clculator/infoViewController.swift"; sourceTree = "<group>"; };
+		472A24C924753C48009FC13C /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 		477B4FB323D42C3700B50D2E /* GDD Clculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDD Clculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		477B4FB623D42C3700B50D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		477B4FB823D42C3700B50D2E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		477B4FBA23D42C3700B50D2E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		477B4FB823D42C3700B50D2E /* GDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDDViewController.swift; sourceTree = "<group>"; };
+		477B4FBA23D42C3700B50D2E /* CumulativeGDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CumulativeGDDViewController.swift; sourceTree = "<group>"; };
 		477B4FBD23D42C3700B50D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		477B4FBF23D42C3900B50D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477B4FC223D42C3900B50D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		477B4FC423D42C3900B50D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479B8816247E178700642D82 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8B888E3ACFCFB0F7B32C2E40 /* Pods-GDD Clculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDD Clculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDD Clculator/Pods-GDD Clculator.debug.xcconfig"; sourceTree = "<group>"; };
+		9C02B36D2CDFAAB84EB242F2 /* Pods_GDD_Clculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDD_Clculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A289893E43247C2BD47D37 /* Pods-GDD Clculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDD Clculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDD Clculator/Pods-GDD Clculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +44,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F62B4AA5BB5757AE463CA9 /* Pods_GDD_Clculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43DF61BE27F2B9C89A6A4BD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B888E3ACFCFB0F7B32C2E40 /* Pods-GDD Clculator.debug.xcconfig */,
+				F8A289893E43247C2BD47D37 /* Pods-GDD Clculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		477B4FAA23D42C3700B50D2E = {
 			isa = PBXGroup;
 			children = (
+				472A24C724753879009FC13C /* infoViewController.swift */,
 				477B4FB523D42C3700B50D2E /* GDD Clculator */,
 				477B4FB423D42C3700B50D2E /* Products */,
+				43DF61BE27F2B9C89A6A4BD5 /* Pods */,
+				629A845E6A16B746A0C0C383 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,27 @@
 		477B4FB523D42C3700B50D2E /* GDD Clculator */ = {
 			isa = PBXGroup;
 			children = (
+				479B8816247E178700642D82 /* Reachability.swift */,
+				472A24C924753C48009FC13C /* infoViewController.swift */,
+				4710DDF2245FD38400A0A282 /* weather.swift */,
 				477B4FB623D42C3700B50D2E /* AppDelegate.swift */,
-				477B4FB823D42C3700B50D2E /* FirstViewController.swift */,
-				477B4FBA23D42C3700B50D2E /* SecondViewController.swift */,
+				477B4FB823D42C3700B50D2E /* GDDViewController.swift */,
+				477B4FBA23D42C3700B50D2E /* CumulativeGDDViewController.swift */,
 				477B4FBC23D42C3700B50D2E /* Main.storyboard */,
+				470150BE23D9A8D700FC333B /* weatherData.swift */,
 				477B4FBF23D42C3900B50D2E /* Assets.xcassets */,
 				477B4FC123D42C3900B50D2E /* LaunchScreen.storyboard */,
 				477B4FC423D42C3900B50D2E /* Info.plist */,
 			);
 			path = "GDD Clculator";
+			sourceTree = "<group>";
+		};
+		629A845E6A16B746A0C0C383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C02B36D2CDFAAB84EB242F2 /* Pods_GDD_Clculator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 477B4FC723D42C3900B50D2E /* Build configuration list for PBXNativeTarget "GDD Clculator" */;
 			buildPhases = (
+				17E801E3D49359013D0D1044 /* [CP] Check Pods Manifest.lock */,
 				477B4FAF23D42C3700B50D2E /* Sources */,
 				477B4FB023D42C3700B50D2E /* Frameworks */,
 				477B4FB123D42C3700B50D2E /* Resources */,
+				6C0B7670064B6EB60B567881 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,7 +134,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Karthik Talakanti";
 				TargetAttributes = {
 					477B4FB223D42C3700B50D2E = {
@@ -133,14 +173,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17E801E3D49359013D0D1044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDD Clculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0B7670064B6EB60B567881 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GDD Clculator/Pods-GDD Clculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDD Clculator/Pods-GDD Clculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		477B4FAF23D42C3700B50D2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477B4FBB23D42C3700B50D2E /* SecondViewController.swift in Sources */,
+				472A24C824753879009FC13C /* infoViewController.swift in Sources */,
+				477B4FBB23D42C3700B50D2E /* CumulativeGDDViewController.swift in Sources */,
 				477B4FB723D42C3700B50D2E /* AppDelegate.swift in Sources */,
-				477B4FB923D42C3700B50D2E /* FirstViewController.swift in Sources */,
+				4710DDF3245FD38400A0A282 /* weather.swift in Sources */,
+				470150BF23D9A8D700FC333B /* weatherData.swift in Sources */,
+				479B8817247E178700642D82 /* Reachability.swift in Sources */,
+				477B4FB923D42C3700B50D2E /* GDDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +373,7 @@
 		};
 		477B4FC823D42C3900B50D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B888E3ACFCFB0F7B32C2E40 /* Pods-GDD Clculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +391,7 @@
 		};
 		477B4FC923D42C3900B50D2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A289893E43247C2BD47D37 /* Pods-GDD Clculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
