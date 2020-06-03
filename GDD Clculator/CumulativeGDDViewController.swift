@@ -10,7 +10,7 @@ class CumulativeGDDViewController: UIViewController, weatherDataDelegate ,
 UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
     
     var StationsWithGDDData = [stationsGDD]()
-    var selectedStationGDDData = stationsGDD()
+    var selectedStationGDDData = stationsGDD()  
     var stationsData = [stations]()
     let crops = ["Alfalfa", "Corn", "Cotton", "Grass Hay", "Peanuts", "Sorghum", "Soybean", "Wheat"]
     let cropsWithData = ["Alfalfa" : [Float(41),Float(86)], "Corn": [Float(50),Float(86)], "Cotton": [Float(60),Float(100)], "Grass Hay": [Float(50),Float(86)], "Peanuts": [Float(55),Float(95)], "Sorghum": [Float(55),Float(95)], "Soybean": [Float(50),Float(95)], "Wheat": [Float(32),Float(86)]]
