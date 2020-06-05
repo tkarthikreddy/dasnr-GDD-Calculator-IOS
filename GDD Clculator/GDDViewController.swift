@@ -4,7 +4,6 @@
 //
 
 import UIKit
-import SwiftCharts
 	
 class GDDViewController: UIViewController, weatherDataDelegate, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
     var stationsData = [stations]()

@@ -25,7 +25,7 @@
 		4710DDF2245FD38400A0A282 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = weather.swift; path = ../weather.swift; sourceTree = "<group>"; };
 		472A24C724753879009FC13C /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = infoViewController.swift; path = "GDD Clculator/infoViewController.swift"; sourceTree = "<group>"; };
 		472A24C924753C48009FC13C /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
-		477B4FB323D42C3700B50D2E /* GDD Clculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDD Clculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		477B4FB323D42C3700B50D2E /* gddCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gddCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477B4FB623D42C3700B50D2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		477B4FB823D42C3700B50D2E /* GDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDDViewController.swift; sourceTree = "<group>"; };
 		477B4FBA23D42C3700B50D2E /* CumulativeGDDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CumulativeGDDViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		477B4FB423D42C3700B50D2E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				477B4FB323D42C3700B50D2E /* GDD Clculator.app */,
+				477B4FB323D42C3700B50D2E /* gddCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		477B4FB223D42C3700B50D2E /* GDD Clculator */ = {
+		477B4FB223D42C3700B50D2E /* GDD Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 477B4FC723D42C3900B50D2E /* Build configuration list for PBXNativeTarget "GDD Clculator" */;
+			buildConfigurationList = 477B4FC723D42C3900B50D2E /* Build configuration list for PBXNativeTarget "GDD Calculator" */;
 			buildPhases = (
 				17E801E3D49359013D0D1044 /* [CP] Check Pods Manifest.lock */,
 				477B4FAF23D42C3700B50D2E /* Sources */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = "GDD Clculator";
+			name = "GDD Calculator";
 			productName = "GDD Clculator";
-			productReference = 477B4FB323D42C3700B50D2E /* GDD Clculator.app */;
+			productReference = 477B4FB323D42C3700B50D2E /* gddCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,14 +135,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Karthik Talakanti";
+				ORGANIZATIONNAME = "DASNR OKSTATE";
 				TargetAttributes = {
 					477B4FB223D42C3700B50D2E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 477B4FAE23D42C3700B50D2E /* Build configuration list for PBXProject "GDD Clculator" */;
+			buildConfigurationList = 477B4FAE23D42C3700B50D2E /* Build configuration list for PBXProject "gddCalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				477B4FB223D42C3700B50D2E /* GDD Clculator */,
+				477B4FB223D42C3700B50D2E /* GDD Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -200,16 +200,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GDD Clculator/Pods-GDD Clculator-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
-				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -382,8 +376,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.karthiktalakanti.GDD-Clculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.dasnr.gddCalculator;
+				PRODUCT_NAME = gddCalculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,8 +394,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.karthiktalakanti.GDD-Clculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.okstate.dasnr.gddCalculator;
+				PRODUCT_NAME = gddCalculator;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -410,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		477B4FAE23D42C3700B50D2E /* Build configuration list for PBXProject "GDD Clculator" */ = {
+		477B4FAE23D42C3700B50D2E /* Build configuration list for PBXProject "gddCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				477B4FC523D42C3900B50D2E /* Debug */,
@@ -419,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		477B4FC723D42C3900B50D2E /* Build configuration list for PBXNativeTarget "GDD Clculator" */ = {
+		477B4FC723D42C3900B50D2E /* Build configuration list for PBXNativeTarget "GDD Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				477B4FC823D42C3900B50D2E /* Debug */,
